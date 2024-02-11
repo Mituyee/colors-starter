@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body {
+html,
+body {
   margin: 0px;
 }
 
@@ -59,26 +60,31 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
-  header {
+
+  .header {
     background-color: #052a49;
   }
 
   #column-1 {
-    background-color:#150994;;
+    background-color: #150994;
+    ;
   }
 
   #column-2 {
-    background-color: #076fc4;;
+    background-color: #076fc4;
+    ;
   }
 
   #column-3 {
-    background-color: #095594;;
+    background-color: #095594;
+    ;
   }
 
   footer {
-    background-color:#adcce6; ;
+    background-color: #adcce6;
+    ;
   }
-  
+
 }
 
 
@@ -89,19 +95,22 @@ footer {
   }
 
   #column-1 {
-    background-color:  #c83b3b;
+    width: 33.3%;
+    background-color: #c83b3b;
   }
 
   #column-2 {
-    background-color:  #a62c2c;
+    width: 33.3%;
+    background-color: #a62c2c;
   }
 
   #column-3 {
-    background-color:  #a85353;
+    width: 33.3%;
+    background-color: #a85353;
   }
 
   footer {
-    background-color: #d5a6a6 ;
+    background-color: #d5a6a6;
   }
-   
+
 }
